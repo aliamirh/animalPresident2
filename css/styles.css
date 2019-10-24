@@ -1,0 +1,13 @@
+.canVote{
+  display: none;
+}
+ .noVote{
+  display: none;
+}
+img{
+  height: 10%;
+  width: 10%;
+}
+.presidentInfo{
+  display: none;
+}

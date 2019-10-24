@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="crossorigin="anonymous"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Voting</title>
+  </head>
+  <body>
+    <div class="canVote">
+      <h1>You can vote!</h1>
+      <form id="presidentChoice">
+      <div class="radio">
+        <label>
+          <input type="radio" name="president" value="1" id="parrot">
+          Captain Parrot <img src="img/mrparrot.jpg" alt="captain parrot">
+        </label>
+        </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="president" value="2" id="doggo">
+          Meme doggo <img src="img/download.jpg" alt="smiling shiba inu(no bark)">
+        </label>
+      </div>
+      <button type="submit" name="button">submit</button>
+      </form>
+       <p> <span class="presidentInfo"> <span id="animal"></span> is your president choice! </span>
+
+
+    </div>
+
+
+    <div class="noVote">
+      <h1>You're not old enough.</h1>
+      <p>Here is a link about voting <a href="https://en.wikipedia.org/wiki/Voting_age">Click me.</a></p>
+    </div>
+  </body>
+</html>
